@@ -1,4 +1,4 @@
-package com.example.service;
+package com.example.sumsquaredifference.service;
 
 public class SquareService {
 

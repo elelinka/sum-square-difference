@@ -1,6 +1,6 @@
-package com.example;
+package com.example.sumsquaredifference;
 
-import com.example.service.SquareService;
+import com.example.sumsquaredifference.service.SquareService;
 
 public class Application {
     public static void main(String[] args) {

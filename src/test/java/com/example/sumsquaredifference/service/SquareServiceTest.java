@@ -1,4 +1,4 @@
-package com.example.service;
+package com.example.sumsquaredifference.service;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -45,9 +45,9 @@ class SquareServiceTest {
     }
 
     @Test
-    void whenDifferenceBetweenSumsForOneHundredNaturalNumbers_shouldBe25164150() {
-        int expectedResult = 25164150;
-        int range = 100;
+    void whenDifferenceBetweenSumsForTwoNaturalNumbers_shouldBeFour() {
+        int expectedResult = 4;
+        int range = 2;
 
         int result = squareService.differenceBetweenSums(range);
 
